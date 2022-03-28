@@ -13,7 +13,7 @@ jobs:
         run: echo Start testing!
       
   build:
-    runs-on: ubuntu-latestxxx
+    runs-on: ubuntu-latest
 
     needs: [my_test]
     
